@@ -41,6 +41,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # CyanogenMod specific product packages
 PRODUCT_PACKAGES += \
     AndroidTerm \
+	Email \
     FileManager \
     CMParts \
     DSPManager \
