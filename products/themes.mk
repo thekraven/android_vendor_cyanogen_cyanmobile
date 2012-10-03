@@ -1,3 +1,4 @@
 # Theme packages
 PRODUCT_PACKAGES += \
-       Androidian
+       Androidian \
+	   Cyanbread

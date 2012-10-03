@@ -2,8 +2,8 @@
 $(call inherit-product, vendor/cyanogen/products/common.mk)
 
 # CyanogenMod specific product packages
-#PRODUCT_PACKAGES += \
-#    CMWallpapers
+PRODUCT_PACKAGES += \
+    CMWallpapers
 
 # Bring in all audio files
 include frameworks/base/data/sounds/AllAudio.mk
