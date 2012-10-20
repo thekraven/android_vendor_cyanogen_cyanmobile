@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
     CMCompassCalibrator \
     BugReportSender \
     CMBootsound \
-    CMContacts \
     CMTSCalibration \
     CMCalibrator \
     CMCompass \
