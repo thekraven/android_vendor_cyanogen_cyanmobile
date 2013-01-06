@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
 # Inherit device configuration for p500.
-$(call inherit-product, device/lge/thunderc/thunderc.mk)
+$(call inherit-product, device/lge/thunderc/device_thunderc.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)

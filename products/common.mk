@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
     vendor/cyanogen/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
     vendor/cyanogen/prebuilt/common/etc/profile:system/etc/profile \
+    vendor/cyanogen/prebuilt/common/media/poweron.ogg:system/media/poweron.ogg \
     vendor/cyanogen/prebuilt/common/etc/be_movie:system/etc/be_movie \
     vendor/cyanogen/prebuilt/common/etc/be_photo:system/etc/be_photo \
     vendor/cyanogen/prebuilt/common/etc/init.local.rc:system/etc/init.local.rc \
@@ -120,7 +121,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/init.d/97swap2sd:system/etc/init.d/97swap2sd \
     vendor/cyanogen/prebuilt/common/etc/init.d/98swapmarker:system/etc/init.d/98swapmarker \
     vendor/cyanogen/prebuilt/common/etc/init.d/33swapper:system/etc/init.d/33swapper
-#    vendor/cyanogen/prebuilt/common/etc/init.d/07ksm:system/etc/init.d/07ksm
+    vendor/cyanogen/prebuilt/common/etc/init.d/07ksm:system/etc/init.d/07ksm
 
 PRODUCT_COPY_FILES +=  \
 #    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
