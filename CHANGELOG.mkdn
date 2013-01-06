@@ -7,8 +7,8 @@ Maintainers:
 ------------
 * Tass (Galaxy Mini): Squadzone
 * Cooper (Galaxy Ace): EmoBoiix3 Squadzone
-* Gio (Galaxy Gio): Phiexz Squadzone
-* Beni (Galaxy Fit): Tj-style Squadzone
+* Gio (Galaxy Gio): Phiexz OldDroid
+* Beni (Galaxy Fit): Tj-style Speed_bot
 * Callisto (Galaxy 5510): Psyke83 WillingMagic
 * Galaxy5 (Galaxy 5500): Psyke83 Motafoca
 * Crespo (Nexus S): TaichiN
@@ -16,9 +16,13 @@ Maintainers:
 * u8510 (Huawei Ideos X3): Squadzone
 * Passion (Nexus One): TaichiN
 * Bravo (Desire GSM): island3r
-* p350 (LG Optimus Me): Keyur2Maru
-* p500 (LG Optimus One): Keyur2Maru
-* Galaxy Sl ( Galaxy i9003 ) : Keyur2maru adipat
+* p350 (LGE Optimus Me): Keyur2Maru
+* p500 (LGE Optimus One): Keyur2Maru
+* buzz (HTC Wildfire) : Keyur2Maru
+* p970 (LGE Optimus Black) : Keyur2maru
+* z71 (Commtiva) : ardX
+* Sunfire (Motorolla Photon) : thekraven
+* u8800 (Huawei Ideos X5) : ezeteze
 
 Translators:
 ------------
