@@ -31,7 +31,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_BRAND=sprint PRODUCT_NAME=moto_sunfire B
 # Extra Olympus overlay
 PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/cyanogen/overlay/sunfire \
-	vendor/cyanogen/overlay/qhd
+#	vendor/cyanogen/overlay/qhd
 
 #
 # Set ro.modversion

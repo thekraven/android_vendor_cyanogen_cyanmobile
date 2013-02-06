@@ -1,2 +1,3 @@
 add_lunch_combo cyanogen_sunfire-eng
 add_lunch_combo cyanogen_thunderc-eng
+add_lunch_combo cyanogen_olympus-eng
