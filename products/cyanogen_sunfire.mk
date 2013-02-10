@@ -12,12 +12,6 @@ $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 # Include GSM
 $(call inherit-product, vendor/cyanogen/products/gsm.mk)
 
-# Broadcom FM radio
-$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
-
-# Include WiMax - currently HTC-spec
-##$(call inherit-product, vendor/cyanogen/products/wimax.mk)
-
 #
 # Setup device specific product configuration.
 #
@@ -33,21 +27,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/cyanogen/overlay/sunfire \
 #	vendor/cyanogen/overlay/qhd
 
-#
-# Set ro.modversion
-#
-#ifdef CYANOGEN_NIGHTLY
-#    PRODUCT_PROPERTY_OVERRIDES += \
-#        ro.modversion=CyanogenMod-7-$(shell date +%m%d%Y)-NIGHTLY-Sunfire
-#else
-#    ifdef CYANOGEN_RELEASE
-#        PRODUCT_PROPERTY_OVERRIDES += \
-#            ro.modversion=CyanogenMod-7.2.0-Sunfire
-#    else
-#        PRODUCT_PROPERTY_OVERRIDES += \
-#            ro.modversion=CyanogenMod-7.2.0-Sunfire-Kraven
-#    endif
-#endif
+PRODUCT_RELEASE_NAME := Sunfire
+PRODUCT_VERSION_DEVICE_SPECIFIC :=
+-include vendor/cyanogen/products/common_versions.mk
 
 #
 # Copy hdpi specific prebuilt files

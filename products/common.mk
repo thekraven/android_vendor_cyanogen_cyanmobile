@@ -67,7 +67,6 @@ PRODUCT_PACKAGES += \
     CMFrameworksChanger \
     CMPartsFinder \
     CMTaskSwitcher \
-	Launcher2 \
     CMBootanimation
 
 # Extra tools in CyanogenMod
@@ -121,7 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/init.d/97swap2sd:system/etc/init.d/97swap2sd \
     vendor/cyanogen/prebuilt/common/etc/init.d/98swapmarker:system/etc/init.d/98swapmarker \
     vendor/cyanogen/prebuilt/common/etc/init.d/33swapper:system/etc/init.d/33swapper
-    vendor/cyanogen/prebuilt/common/etc/init.d/07ksm:system/etc/init.d/07ksm
+#    vendor/cyanogen/prebuilt/common/etc/init.d/07ksm:system/etc/init.d/07ksm
 
 PRODUCT_COPY_FILES +=  \
 #    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
