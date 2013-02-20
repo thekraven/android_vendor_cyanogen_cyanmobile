@@ -7,8 +7,8 @@ $(call inherit-product, device/lge/thunderc/device_thunderc.mk)
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
 
-# Include FM-Radio stuff
-$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
+## Include FM-Radio stuff
+#$(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
 PRODUCT_NAME := cyanogen_thunderc
 PRODUCT_BRAND := lge
