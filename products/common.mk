@@ -3,7 +3,7 @@ PRODUCT_NAME := cyanogen
 PRODUCT_BRAND := cyanogen
 PRODUCT_DEVICE := generic
 
-PRODUCT_PACKAGES += ADWLauncher
+PRODUCT_PACKAGES += LegacyLauncher
 
 ifdef CYANOGEN_NIGHTLY
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -59,6 +59,8 @@ PRODUCT_PACKAGES += \
     SMSMorse \
     SMSBarrage \
     TaskMan \
+    installd \
+    libdiskusage \
     VideoLiveWallpapers \
     screenshot \
     CMScreenshot \
